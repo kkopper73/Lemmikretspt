@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Happy+Monkey&display=swap');
+
+:root{
+    --heading:#EDC7B7;
+    --text: #BAB2B5;
+    --backround: #EAE7DC;
+    --headings-font-family: 'Architects Daughter', cursive;
+    --text-font-family: 'Happy Monkey', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--backround);
+    text-align: center;
+    font-family: var(--text-font-family);
+    color:var(--text);
+}
+
+
+h2{
+    color: var(--backround);
+    text-align: center;
+    font-family: var(--text-font-family);
+    color: var(--text);
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted var(--text) 16px;
+    border-bottom: none;
+    margin: 5rem auto;
+    width: 10%;
+}
+
+.retsept{
+    margin: 5rem 0;
+}
+
+.retsept-row{
+    width: 50%;
+    text-align: center;
+    margin: 12rem auto;
+    overflow: hidden;
+}
+
+.võiküpsised-img{
+    height: 50%;
+    width: 25%;
+    float: left;
+    margin-right: 2rem;
+}
+
+
+
+
+
+.copyright{
+    margin: 3rem;
+}
