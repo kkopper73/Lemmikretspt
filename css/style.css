@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Happy+Monkey&display=swap');
+
+:root{
+    --heading:#EDC7B7;
+    --text: #BAB2B5;
+    --backround: #EAE7DC;
+    --headings-font-family: 'Architects Daughter', cursive;
+    --text-font-family: 'Happy Monkey', cursive;
+}
+
+
+body{
+    background-color: var(--backround);
+    text-align: center;
+    font-family: var(--text-font-family);
+    color:var(--text);
+}
+
+
+h2{
+    color: var(--backround);
+    text-align: center;
+    font-family: var(--text-font-family);
+    color: var(--text);
+}
